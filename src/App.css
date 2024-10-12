@@ -1,0 +1,60 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #fff;
+  margin: 8px;
+  display: block;
+}
+
+.app {
+  width: 100%;
+  margin: 0 auto;
+  padding: 8rem;
+}
+
+h1 {
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+form {
+  display: block;
+  margin-top: 0em;
+}
+
+input {
+  background-color: #fff;
+  border: 1px solid black;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 8px 16px;
+}
+
+.btn-primary {
+  background: green;
+  border: 1px solid green;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 0;
+}
+
+.btn {
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  padding: 8px 16px;
+  margin-left: 4rem;
+  border-radius: 0;
+}
+
+.task-list {
+  color: black;
+}
+
+.task {
+  display: block;
+}
