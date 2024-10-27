@@ -1,17 +1,22 @@
 import React from "react";
 
 function Task({ task, index, toggleTaskCompletion, deleteTask }) {
+
   return (
-    <div style={{ textDecoration: task.completed ? "line-through" : "none" }} className="task-list">
+    <div className="task">
       <input
         type="checkbox"
         checked={task.completed}
         onChange={() => toggleTaskCompletion(index)}
+        disabled={task.completed}  
       />
-      {task.text}
-      <button onClick={() => deleteTask(index)} className="btn">Remove</button>
+      <span style={{ textDecoration: task.completed ? "line-through" : "none" }}>
+        {task.text}
+      </span>
+      <button onClick={() => deleteTask(index)} className="remove-btn">Remove</button>
     </div>
   );
 }
 
 export default Task;
+
